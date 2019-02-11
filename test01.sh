@@ -23,7 +23,7 @@ sleep 3
 
 touch /tmp/at.txt
 echo 'sudo reboot -f' >> /tmp/at.txt
-at now + 1 hours < /tmp/at.txt
+at now + 3 hours < /tmp/at.txt
 echo -e 'Restart job specified'
 sleep 3
 sudo apt-get install dos2unix
